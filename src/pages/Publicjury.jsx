@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-export default function PublicJury() {
+export default function Publicjury() {
   const [vote, setVote] = useState(null);
   const [rating, setRating] = useState(0);
   const [submitted, setSubmitted] = useState(false);
