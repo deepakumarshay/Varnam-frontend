@@ -58,6 +58,19 @@ export default function PublicJury() {
         </div>
       </div>
 
-      {/* PAS Meter */}
-      <div className="mb-6">
-        <label className="block font-semibold mb-2">Public Accountability
+      {/* Submit */}
+      <button
+        onClick={handleSubmit}
+        className="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700"
+      >
+        Submit
+      </button>
+
+      {submitted && (
+        <p className="mt-4 text-green-700 font-semibold">
+          Thank you! Your feedback has been submitted.
+        </p>
+      )}
+    </div>
+  );
+}
