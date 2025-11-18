@@ -4,7 +4,7 @@ import VillagerLogin from './pages/VillagerLogin';
 import ReportIssue from './pages/ReportIssue';
 import SarpanchDashboard from './pages/SarpanchDashboard';
 import StatusTracker from './pages/StatusTracker';
-import PublicJury from './pages/PublicJury';
+import PublicJury from './pages/Publicjury';   // ← FIXED HERE
 import Insights from './pages/Insights';
 
 export default function App() {
